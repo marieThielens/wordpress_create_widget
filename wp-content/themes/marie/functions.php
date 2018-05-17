@@ -180,7 +180,14 @@ function widget_initialiser(){
         'before_title' => '<h4>',
         'after_title' => '</h4>',
     ));
-    
+	register_sidebar( array(
+        'name' => 'droite_twitter',
+        'id' => 'droite_twitter',
+        'before_widget' => '<div class="twitter">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>',
+    ));   
 }
 add_action('widgets_init', 'widget_initialiser');
 
