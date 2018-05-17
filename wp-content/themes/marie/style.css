@@ -1,0 +1,27 @@
+/*
+Theme Name: marie
+Author: Thielens Marie
+Description: Description
+Version: 1.0.0
+*/
+
+#footer{
+    background-color: black;
+    bottom: 0px;
+    width: 100%;
+    padding:15px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_widget{
+    width:20%;
+}
+.white{
+    color:white;
+}
+.grey{
+    color: #404040;
+}
+a{
+    text-decoration:none;
+}
