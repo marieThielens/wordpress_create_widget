@@ -9,11 +9,6 @@ Author URI: http://www.thielens-marie.be
 License: GPL2
 */
 
-
-
-
-
-
 class MariePlugin
 {
     public function __construct()

@@ -1,5 +1,9 @@
 # Création d'un widget qui intègre sur votre site internet les tweets de votre compte twitter
 
+(faire un plugin qui regroupe des widgets)
+
+info perso : utilisateur : root Pass a**********
+
 ## du coté de twitter
 
 1.	aller sur https://publish.twitter.com/#
@@ -8,7 +12,7 @@
 4.	Vous pouvez changer un peu le visuel en cliquant sur set customization options
 5.	Copier le lien
 
-## le widget
+## le widget (dans votre thème)
 
 ### 1. Créer sa nouvelle zone de widget
 
@@ -33,7 +37,7 @@ Nos zones de widgets apparraissent maintenant dans Apparence/Widgets
 
 ### 2. Déclarer le widget, mode d'emploi
 
-1. wp-content/theme/votretheme/plugins/créer un dossier qui va contenir tout vos plugins/widgets : chez moi MariePlugin
+1. wp-content/plugins/créer un dossier qui va contenir tout vos plugins/widgets : chez moi MariePlugin
 2. Créez un fichier qui appelera tous vos différents plugins. Moi il se nomme mariePlugin.php
 
 ```php
@@ -61,7 +65,11 @@ class MariePlugin
 new MariePlugin();
 ```
 
-## 3. fichier twitterWidget.php
+<span style="color:red;">Activer l'extension mariePlugin dans le dashbord wordpress :extensions </span>
+
+## 3. fichier twitterwidget.php
+
+Créez un fichier twitterwidget.php qui est le contenu de notre widget. (Ce à quoi il sert).
 
 ```php
 <?php
@@ -121,3 +129,4 @@ Et je rajoute un peu de style dans mon style.css (de mon theme)
 }
 ```
 
+<span style="color:red;">Activer l'extension mariePlugin dans le dashbord wordpress :extensions </span>
