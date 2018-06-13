@@ -107,6 +107,10 @@ add_action('widgets_init', function(){register_widget('Twitter_Widget');});
 ?>
 ```
 
+Changer la mise en forme :
+
+https://developer.twitter.com/en/docs/twitter-for-websites/timelines/overview
+
 ## 4. Afficher le widget dans la page souhaitée
 
 Moi je vais le mettre dans le fichier sidebar.php
